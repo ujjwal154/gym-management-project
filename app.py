@@ -19,11 +19,10 @@ app.config['JWT_COOKIE_CSRF_PROTECT'] = False
 
 # MySQL Database
 db = pymysql.connect(
-    host='gondola.proxy.rlwy.net',
+    host='localhost',
     user='root',
-    database='oHIRaIJxzKOubtSGoXcUVAghMUeBILWP',
-    password='railway',
-    port=55208,
+    database='gym_details',
+    password='ujjwal123',
     cursorclass=DictCursor
 )
 cursor = db.cursor()
